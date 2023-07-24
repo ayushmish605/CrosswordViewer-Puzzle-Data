@@ -6,9 +6,9 @@ contributors:
 data:
 - name: 'puzzle1'
   description: 'Puzzles from 1942-1955'
-  path: 'dataset/puzzle1.csv'
-  format: 'csv'
-  size: '14.2MB'
+  path: 'dataset/puzzle1.json'
+  format: 'json'
+  size: '15.8MB'
   fields:
   - name: 'id'
     description: 'row number'
@@ -28,9 +28,9 @@ data:
     description: 'Segment of the clues string (encoded)'
 - name: 'puzzle2'
   description: 'Puzzles from 1956-1962'
-  path: 'dataset/puzzle2.csv'
-  format: 'csv'
-  size: '12.2MB'
+  path: 'dataset/puzzle2.json'
+  format: 'json'
+  size: '13.9MB'
   fields:
   - name: 'id'
     description: 'row number'
@@ -50,9 +50,9 @@ data:
     description: 'Segment of the clues string (encoded)'
 - name: 'puzzle3'
   description: 'Puzzles from 1963-1965'
-  path: 'dataset/puzzle3.csv'
-  format: 'csv'
-  size: '5MB'
+  path: 'dataset/puzzle3.json'
+  format: 'json'
+  size: '5.7MB'
   fields:
   - name: 'id'
     description: 'row number'
